@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:orientation="horizontal"
+              android:focusable="false"
+              android:padding="10dp"
+              android:descendantFocusability="blocksDescendants"
+>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:maxLines="1"
+                android:text="物品：电池 分类：有害垃圾"
+                android:textColor="#000000"
+                android:textSize="16sp"/>
+
+        <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="新闻内容"
+                android:textColor="#666666"
+                android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

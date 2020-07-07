@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="#fff"-->
+<!--                android:orientation="vertical">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <EditText            android:id="@+id/edittext"
+                             android:layout_width="150dp"
+                             android:layout_height="wrap_content"
+                             android:hint="请输入垃圾"/>
+        <Button            android:id="@+id/serach"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="搜索"
+        />
+        <Button
+                android:id="@+id/take_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片识别"/>
+</LinearLayout>
+        <ListView
+
+                android:id="@+id/listv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+<!--</RelativeLayout>-->
